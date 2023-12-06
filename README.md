@@ -3,7 +3,7 @@ Se realizó una integración con la API de Marvel en una aplicación Node.js uti
 
 ## Requisitos Previos:
 ---
-Antes de comenzar, asegúrate de tener Node.js y npm instalados en tu sistema. Además, se requiere una clave de API pública y privada de Marvel, que puedes obtener registrándote en el Portal de Desarrolladores de Marvel **developer.marvel.com**.
+Antes de comenzar, es necesario tener Node.js y npm instalados. Además, se requiere una clave de API pública y privada de Marvel, que se puede obtener registrándose en el Portal de Desarrolladores de Marvel **developer.marvel.com**.
 
 
 #### Pasos para Configurar:
@@ -39,7 +39,7 @@ PRIVATEKEY=TU_CLAVE_PRIVADA
 | Método  | GET    | 
 | Parámetros   | nameWith (para filtrar personajes por nombre)  | 
 | Resultado   | Array de objetos JSON con id y name de cada personaje   | 
-| **Ejemplo**   | **GET /marvel/characters?nameWith=spider**   | 
+| **Ejemplo**   | **GET /marvel/characters/spider**   | 
 
 
 ### Obtener Detalles de un Personaje por ID
